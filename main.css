@@ -82,6 +82,13 @@ section{
   margin-top: 7%;
 }
 
+.hero-bottom{
+  margin: auto;
+  width: 65%;
+  max-width: 850px;
+  margin-top: 5%;
+}
+
 .container {
   margin: auto;
   width: 70%;
@@ -110,7 +117,8 @@ section{
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 18px;
+    line-height: 28px;
     color:white;
     padding-top: 2.5rem;
     padding-bottom: 5rem;
