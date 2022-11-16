@@ -89,7 +89,7 @@ section{
 }
   
   .title{
-    padding-top: 5rem;
+    padding-top: 5%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -157,8 +157,9 @@ section{
   
   
   .answer {
-    /* max-height: 0; */
+    max-height: 0;
     overflow: hidden;
+    margin-top: -2%;
     position: relative;
     transition: max-height 650ms;
   }
