@@ -7,7 +7,7 @@ section{
   to {opacity:1;}
 }
 .body {
-    background: #5479F7;
+    background: #FFFEFB;
   }
 
 .mask {
@@ -99,7 +99,7 @@ section{
     padding-top: 7%;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 4rem;
     line-height: 4.5rem;
     color: white;
