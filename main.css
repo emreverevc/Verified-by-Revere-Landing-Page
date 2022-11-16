@@ -92,7 +92,7 @@ section{
     padding-top: 7%;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 4rem;
     line-height: 4.5rem;
     color: white;
@@ -190,7 +190,6 @@ section{
   }
 
   .gp-calltoaction{
-    padding-top: 3%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
