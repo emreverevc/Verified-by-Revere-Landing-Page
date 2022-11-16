@@ -89,7 +89,7 @@ section{
 }
   
   .title{
-    padding-top: 5%;
+    padding-top: 7%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -130,7 +130,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .5rem 1.5rem 1rem 1.5rem;
+    padding: .5rem 1.5rem 1.25rem 1.5rem;
     
   }
   
@@ -157,7 +157,7 @@ section{
   
   
   .answer {
-    max-height: 0;
+    /* max-height: 0; */
     overflow: hidden;
     margin-top: -2%;
     position: relative;
@@ -190,7 +190,7 @@ section{
   }
 
   .gp-calltoaction{
-    padding-top: 3rem;
+    padding-top: 3%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
