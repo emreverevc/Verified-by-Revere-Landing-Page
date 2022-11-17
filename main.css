@@ -76,11 +76,12 @@ section{
 }
 
 .hero{
-  display: flex;
+  display: grid;
   margin: auto;
   width: 65%;
   max-width: 850px;
   margin-top: 7%;
+  align-items: center;
 }
 
 .hero-bottom{
@@ -97,7 +98,6 @@ section{
 }
   
   .title{
-    padding-top: 7%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -110,8 +110,8 @@ section{
     font-style: normal;
     font-weight: 400;
     font-size: 1.25rem;
-    margin-top: .75rem;
-    color:white;
+    padding: 1%;
+    color: white;
   }
   
   .intro{
@@ -151,6 +151,11 @@ section{
   
   .accordian-link .fa-minus{
     display: none;
+  }
+
+  .accordian {
+    display: grid;
+    grid-gap: 1.2rem;
   }
   
   .accordian-item {
@@ -225,7 +230,7 @@ section{
   overflow: visible;
 }
 
-.button-icon {
+.button-register {
   position: relative;
   z-index: 1;
   margin: auto;
@@ -251,6 +256,6 @@ section{
   text-transform: uppercase;
 }
 
-.button-icon:hover {
+.button-register:hover {
   background-color:  #304351;
 }
