@@ -138,7 +138,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .5rem 1.5rem 1.25rem 1.5rem;
+    padding: 0rem 1.5rem 0rem 1.5rem;
     
   }
   
@@ -154,7 +154,7 @@ section{
 
   .accordian {
     display: grid;
-    grid-gap: 1.2rem;
+    grid-gap: 2.2rem;
   }
   
   .accordian-item {
@@ -163,7 +163,6 @@ section{
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.2rem;
-    margin-bottom: 1.2rem;
     background: white;
     border-radius: 4px;
   }
@@ -172,7 +171,6 @@ section{
   .answer {
     max-height: 0;
     overflow: hidden;
-    margin-top: -2%;
     position: relative;
     transition: max-height 650ms;
   }
