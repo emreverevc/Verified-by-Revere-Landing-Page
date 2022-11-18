@@ -6,11 +6,12 @@
 @keyframes fade{
   to {opacity:1;}
 }
+
 .body {
     background: #5479f7;
   }
 
-.mask {
+/* .mask {
   position:absolute;
   z-index:-1;
   height: 600px;
@@ -64,7 +65,7 @@
   to {
     stroke-dashoffset: -600;
   }
-}
+} */
 
 
 .hero-text{
@@ -274,7 +275,7 @@
   .hero{
     width: 85%;
     max-width: 850px;
-    margin-top: max(4rem, 10vh);
+    margin-top: 3rem;
   }
   
   .hero-bottom{
@@ -295,7 +296,15 @@
   }
 
   .accordian-link {
-    font-size: 1rem;}
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  }
+
+  .top-squiggle{
+    left: -2.5rem;
+    top: 4rem;
+    height: 24vh;
+  }
+  
 
 }
 
