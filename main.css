@@ -1,3 +1,8 @@
+html {
+  visibility: visible;
+  opacity: 1;
+}
+
 .title{
   opacity: 0;
   animation: fade .05s .1s forwards;
@@ -135,8 +140,8 @@
   top: 0;
   z-index: -2;
   height: min(600px, 50vw);
-  opacity: 0;
-  animation: fade .05s .1s forwards;
+  /* opacity: 0;
+  animation: fade .05s .1s forwards; */
 }
 
 .hero{
