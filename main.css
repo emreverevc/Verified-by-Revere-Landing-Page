@@ -80,7 +80,7 @@ section{
   margin: auto;
   width: 65%;
   max-width: 850px;
-  margin-top: 7%;
+  margin-top: max(8rem, 15vh);
   align-items: center;
 }
 
@@ -227,6 +227,7 @@ section{
   left: 0;
   position: absolute;
   width: 100%;
+  max-width: 950px;
   overflow: visible;
 }
 
