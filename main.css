@@ -245,6 +245,7 @@ section{
 }
 
 .button-register {
+  cursor: pointer!important;
   position: relative;
   z-index: 1;
   margin: auto;
