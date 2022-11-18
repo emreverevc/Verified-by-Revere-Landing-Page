@@ -136,7 +136,7 @@
   z-index: -2;
   height: min(600px, 50vw);
   opacity: 0;
-  animation: fade .05s .05s forwards;
+  animation: fade .05s .1s forwards;
 }
 
 .hero{
