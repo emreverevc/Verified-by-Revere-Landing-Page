@@ -223,11 +223,15 @@ section{
     margin-top: 1rem;
     text-align: center;
   }
+
+.bottom-squiggle-container{
+  max-width: 1240px;
+}
+
 .bottom-squiggle {
   left: 0;
   position: absolute;
   width: 100%;
-  max-width: 950px;
   overflow: visible;
 }
 
