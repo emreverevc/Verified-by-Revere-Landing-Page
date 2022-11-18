@@ -226,8 +226,14 @@ section{
 
 @media screen and (min-width: 1400px) {
   .bottom-squiggle-container{
-    padding: 0 10% 0 10%;
+    padding: 0 20% 0 20%;
 
+  }
+
+  .bottom-squiggle {
+    width: 100%;
+    position: relative;
+    left: 0;
   }
   
 }
@@ -235,6 +241,8 @@ section{
 
 .bottom-squiggle {
   width: 100%;
+  position: absolute;
+  left: 0;
 }
 
 .button-register {
