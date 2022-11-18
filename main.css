@@ -1,6 +1,6 @@
-section{
+.subtitle, .intro, .container, .bottom{
   opacity: 0;
-  animation: fade 1.25s 1.55s forwards;
+  animation: fade 1.85s 2.8s forwards;
 }
 
 @keyframes fade{
@@ -66,16 +66,59 @@ section{
   }
 }
 
-.hero-text-one {
-  -webkit-text-stroke: 1px;
+
+.hero-text{
+  position: relative;
+	display: inline-block;
+	-webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
   -webkit-text-fill-color: transparent;
-  animation: herotextone 1s .55s linear forwards;
+  text-fill-color: transparent;
+  color: transparent;
+}
+
+.filled-in-hero-text-one{
+  position: absolute;
+  z-index: -1;
+  -webkit-text-fill-color: white;
+  height:0;
+  overflow: hidden;
+  animation: herotextone .5s .75s linear forwards;
 }
 
 @keyframes herotextone {
   to {
-    -webkit-text-stroke: none;
-    -webkit-text-fill-color: none;
+    height: 100%;
+  }
+}
+
+.filled-in-hero-text-two{
+  position: absolute;
+  z-index: -1;
+  -webkit-text-fill-color: white;
+  height:0;
+  overflow: hidden;
+  animation: herotexttwo .5s 1.35s linear forwards;
+}
+
+@keyframes herotexttwo {
+  to {
+    height: 105%;
+  }
+}
+
+.filled-in-hero-text-three{
+  position: absolute;
+  z-index: -1;
+  -webkit-text-fill-color: white;
+  height:0;
+  overflow: hidden;
+  animation: herotextthree .60s 1.95s linear forwards;
+}
+
+@keyframes herotextthree {
+  to {
+    height: 100%;
   }
 }
 
@@ -197,7 +240,7 @@ section{
     font-style: normal;
     font-weight: 700;
     font-size: 3rem;
-    line-height: 2.5rem;
+    line-height: 3rem;
     color: white;
     text-align:center;
   }
@@ -213,7 +256,7 @@ section{
     text-align: center;
   }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1600px) {
   .bottom-squiggle-container{
     padding: 0 20% 0 20%;
 
@@ -246,6 +289,14 @@ section{
   .mask {
     visibility: hidden;
   }
+
+  p{
+    padding: 0rem 2rem 1rem 2rem;
+  }
+
+  .accordian-link {
+    font-size: 1rem;}
+
 }
 
 
