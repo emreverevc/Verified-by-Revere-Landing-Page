@@ -213,10 +213,6 @@ section{
     position: relative;
     left: 0;
   }
-
-  .mask {
-    visibility: hidden;
-  }
   
 }
 
@@ -234,6 +230,10 @@ section{
   .container {
     margin: auto;
     width: 90%;
+  }
+
+  .mask {
+    visibility: hidden;
   }
 }
 
