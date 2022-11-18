@@ -224,15 +224,10 @@ section{
     text-align: center;
   }
 
-.bottom-squiggle-container{
-  max-width: 1240px;
-}
 
 .bottom-squiggle {
-  left: 0;
-  position: absolute;
-  width: 100%;
-  overflow: visible;
+  width: 110%;
+  overflow: hidden;
 }
 
 .button-register {
