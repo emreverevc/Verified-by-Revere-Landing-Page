@@ -224,11 +224,14 @@ section{
     text-align: center;
   }
 
-.bottom-squiggle-container{
-  max-width: 1240px;
-  display: flex;   
-  justify-content: center;
+@media screen and (min-width: 1400px) {
+  .bottom-squiggle-container{
+    padding: 0 10% 0 10%;
+
+  }
+  
 }
+
 
 .bottom-squiggle {
   width: 100%;
