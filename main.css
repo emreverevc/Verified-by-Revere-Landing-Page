@@ -1,6 +1,6 @@
 section{
   opacity: 0;
-  animation: fade 1.25s .55s forwards;
+  animation: fade 1.25s 1.55s forwards;
 }
 
 @keyframes fade{
@@ -63,6 +63,19 @@ section{
 @keyframes dashfour {
   to {
     stroke-dashoffset: -600;
+  }
+}
+
+.hero-text-one {
+  -webkit-text-stroke: 1px;
+  -webkit-text-fill-color: transparent;
+  animation: herotextone 1s .55s linear forwards;
+}
+
+@keyframes herotextone {
+  to {
+    -webkit-text-stroke: none;
+    -webkit-text-fill-color: none;
   }
 }
 
