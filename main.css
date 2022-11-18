@@ -224,10 +224,14 @@ section{
     text-align: center;
   }
 
+.bottom-squiggle-container{
+  max-width: 1240px;
+  display: flex;   
+  justify-content: center;
+}
 
 .bottom-squiggle {
-  width: 110%;
-  overflow: hidden;
+  width: 100%;
 }
 
 .button-register {
