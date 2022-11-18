@@ -140,8 +140,8 @@
 .hero{
   display: grid;
   margin: auto;
-  width: calc(70% + 1.5rem);
-  max-width: calc(950px + 1.5rem);
+  width: calc(70% - 1.5rem);
+  max-width: calc(950px - 1.5rem);
   margin-top: max(8rem, 15vh);
   align-items: center;
 }
