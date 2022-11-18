@@ -209,9 +209,9 @@ section{
   }
 
   .bottom-squiggle {
-    width: 100%;
-    position: relative;
-    left: 0;
+    width: 100%!important;
+    position: relative!important;
+    left: 0!important;
   }
   
 }
