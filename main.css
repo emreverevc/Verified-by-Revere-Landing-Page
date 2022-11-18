@@ -235,6 +235,10 @@ section{
     position: relative;
     left: 0;
   }
+
+  .mask {
+    visibility: hidden;
+  }
   
 }
 
