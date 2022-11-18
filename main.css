@@ -140,8 +140,8 @@
 .hero{
   display: grid;
   margin: auto;
-  width: 65%;
-  max-width: 850px;
+  width: 70%;
+  max-width: 950px;
   margin-top: max(8rem, 15vh);
   align-items: center;
 }
@@ -238,6 +238,7 @@
   }
   
   p{
+    color: #424446!important;
     padding: 0rem 4rem 1rem 4rem;
   }
   
