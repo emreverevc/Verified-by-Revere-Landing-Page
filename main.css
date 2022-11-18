@@ -133,9 +133,8 @@ section{
     line-height: 2rem;
     text-decoration: none;
     color: black;
-    
     width:100%;
-    
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -182,14 +181,6 @@ section{
     padding: 0rem 4rem 1rem 4rem;
   }
   
-  .accordian-item:target .accordian-link .fa-plus {
-    display: none;
-  }
-  
-  .accordian-item:target .accordian-link .fa-minus {
-    display: block;
-  }
-
   .gp-calltoaction{
     font-family: 'Poppins';
     font-style: normal;
