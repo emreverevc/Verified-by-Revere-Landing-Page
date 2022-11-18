@@ -238,6 +238,23 @@ section{
   
 }
 
+@media screen and (max-width: 844px) {
+  .hero{
+    width: 85%;
+    max-width: 850px;
+    margin-top: max(4rem, 10vh);
+  }
+  
+  .hero-bottom{
+    width: 85%;
+  }
+  
+  .container {
+    margin: auto;
+    width: 90%;
+  }
+}
+
 
 .bottom-squiggle {
   width: 100%;
